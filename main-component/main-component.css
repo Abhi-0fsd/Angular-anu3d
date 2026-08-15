@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* =========================
+   MAIN PAGE
+========================= */
+
+.landing-page {
+    width: 100%;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
+        ),
+        url('/d4118ecd-81c9-4bb8-a6ac-c76ad8b11ef5.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* =========================
+   NAVBAR - LAPTOP
+========================= */
+
+.navbar {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 60px;
+}
+
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+.logo h2 {
+    color: #ffb400;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+
+/* MENU */
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+
+    gap: 30px;
+}
+
+.navbar ul li a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ffb400;
+}
+
+
+/* =========================
+   HERO - LAPTOP
+========================= */
+
+.hero {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+
+    display: flex;
+    align-items: center;
+
+    padding: 40px 70px;
+}
+
+.content {
+    width: 650px;
+    max-width: 100%;
+}
+
+.content h3 {
+    color: #ffb400;
+
+    font-size: 22px;
+
+    margin-bottom: 15px;
+
+    text-align: left;
+}
+
+.content h1 {
+    color: white;
+
+    font-size: 70px;
+    line-height: 1.05;
+
+    margin-bottom: 25px;
+}
+
+.content span {
+    color: #ffb400;
+}
+
+.content p {
+    color: #ddd;
+
+    font-size: 21px;
+    line-height: 1.6;
+
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.buttons {
+    display: flex;
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    padding: 15px 30px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #ffb400;
+    color: #000;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    transform: translateY(-3px);
+}
+
+.outline {
+    background: transparent !important;
+
+    color: white !important;
+
+    border: 2px solid #ffb400 !important;
+}
+
+.outline:hover {
+    background: #ffb400 !important;
+
+    color: black !important;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 18px 30px;
+    }
+
+    .navbar ul {
+        gap: 18px;
+    }
+
+    .navbar ul li a {
+        font-size: 15px;
+    }
+
+    .hero {
+        padding: 40px 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .content h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .content h1 {
+        font-size: 55px;
+        line-height: 1.1;
+    }
+
+    .content p {
+        font-size: 19px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .landing-page {
+        min-height: 100vh;
+
+        background-position: center;
+    }
+
+    .overlay {
+        min-height: 100vh;
+    }
+
+
+    /* =========================
+       MOBILE NAVBAR
+    ========================= */
+
+    .navbar {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 18px;
+
+        padding: 15px 12px;
+    }
+
+
+    /* LOGO */
+
+    .logo {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 8px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+    }
+
+
+    /* MENU */
+
+    .navbar ul {
+        width: 100%;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 10px 18px;
+
+        padding: 0;
+    }
+
+    .navbar ul li {
+        list-style: none;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+
+        white-space: nowrap;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+        width: 100%;
+
+        min-height: auto;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        padding: 45px 18px 30px;
+
+        text-align: center;
+    }
+
+    .content {
+        width: 100%;
+        max-width: 450px;
+    }
+
+
+    /* SMALL TITLE */
+
+    .content h3 {
+        width: 100%;
+
+        font-size: 16px;
+
+        line-height: 1.4;
+
+        margin-bottom: 12px;
+
+        text-align: center;
+    }
+
+
+    /* MAIN TITLE */
+
+    .content h1 {
+        width: 100%;
+
+        font-size: 40px;
+
+        line-height: 1.12;
+
+        margin-bottom: 20px;
+
+        word-wrap: break-word;
+    }
+
+
+    /* DESCRIPTION */
+
+    .content p {
+        width: 100%;
+
+        font-size: 16px;
+
+        line-height: 1.6;
+
+        margin-bottom: 25px;
+    }
+
+
+    /* =========================
+       MOBILE BUTTONS
+    ========================= */
+
+    .buttons {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 12px;
+    }
+
+    .buttons button {
+        width: 100%;
+        max-width: 300px;
+
+        padding: 13px 20px;
+
+        font-size: 16px;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 400px) {
+
+    .navbar {
+        padding: 12px 10px;
+
+        gap: 14px;
+    }
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo h2 {
+        font-size: 21px;
+    }
+
+    .navbar ul {
+        gap: 8px 14px;
+    }
+
+    .navbar ul li a {
+        font-size: 13px;
+    }
+
+
+    .hero {
+        padding: 35px 15px 25px;
+    }
+
+    .content h3 {
+        font-size: 14px;
+    }
+
+    .content h1 {
+        font-size: 34px;
+
+        line-height: 1.15;
+    }
+
+    .content p {
+        font-size: 14px;
+
+        line-height: 1.55;
+    }
+
+    .buttons button {
+        max-width: 260px;
+
+        font-size: 15px;
+
+        padding: 12px 18px;
+    }
+}

@@ -1,0 +1,68 @@
+<div class="page-wrapper">
+
+  <div class="card" *ngFor="let product of products">
+
+    <!-- PRODUCT IMAGE -->
+    <div
+      class="image-container"
+      (click)="openProduct(product.id)"
+    >
+      <img
+        [src]="product.image"
+        [alt]="product.name"
+        class="product-image"
+      />
+    </div>
+
+    <!-- PRODUCT DETAILS -->
+    <div class="details">
+
+      <h2>{{ product.name }}</h2>
+
+      <h3>₹{{ product.currentPrice }}</h3>
+
+      <p class="price-row">
+
+        <span class="old-price">
+          ₹{{ product.mrp }}
+        </span>
+
+        <span class="discount">
+          {{ getDiscount(product.mrp, product.currentPrice) }}% OFF
+        </span>
+
+      </p>
+
+      <ul>
+        <li>✔ Perfect for Couples & Gifts</li>
+        <li>✔ Beautiful Warm Lighting</li>
+        <li>✔ Premium Quality</li>
+      </ul>
+
+      <!-- BUTTONS -->
+      <div class="btn-group">
+
+        <button
+          type="button"
+          class="cart"
+          (click)="addToCart(product)"
+        >
+          Add to Cart
+        </button>
+
+      </div>
+
+      <!-- VIEW DETAILS -->
+      <button
+        type="button"
+        class="details-btn"
+        (click)="openProduct(product.id)"
+      >
+        View Details →
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
