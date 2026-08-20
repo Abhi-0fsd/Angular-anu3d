@@ -35095,7 +35095,7 @@ var NavbarComponent = class _NavbarComponent {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(NavbarComponent, { className: "NavbarComponent", filePath: "app/navbar/navbar.ts", lineNumber: 11 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(NavbarComponent, { className: "NavbarComponent", filePath: "src/app/navbar/navbar.ts", lineNumber: 11 });
 })();
 
 // src/app/footer/footer.ts
@@ -35144,7 +35144,7 @@ var FooterComponent = class _FooterComponent {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(FooterComponent, { className: "FooterComponent", filePath: "app/footer/footer.ts", lineNumber: 11 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(FooterComponent, { className: "FooterComponent", filePath: "src/app/footer/footer.ts", lineNumber: 11 });
 })();
 
 // src/app/login/login.ts
@@ -35313,7 +35313,7 @@ var LoginComponent = class _LoginComponent {
   }], () => [{ type: Router }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(LoginComponent, { className: "LoginComponent", filePath: "app/login/login.ts", lineNumber: 12 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(LoginComponent, { className: "LoginComponent", filePath: "src/app/login/login.ts", lineNumber: 12 });
 })();
 
 // node_modules/@angular/forms/fesm2022/forms.mjs
@@ -40178,7 +40178,7 @@ var RegisterComponent = class _RegisterComponent {
   }], () => [{ type: Router }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(RegisterComponent, { className: "RegisterComponent", filePath: "app/register/register.ts", lineNumber: 13 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(RegisterComponent, { className: "RegisterComponent", filePath: "src/app/register/register.ts", lineNumber: 13 });
 })();
 
 // src/app/about/about.ts
@@ -40270,7 +40270,7 @@ var AboutComponent = class _AboutComponent {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AboutComponent, { className: "AboutComponent", filePath: "app/about/about.ts", lineNumber: 11 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AboutComponent, { className: "AboutComponent", filePath: "src/app/about/about.ts", lineNumber: 11 });
 })();
 
 // src/app/contacts/contacts.ts
@@ -40449,7 +40449,7 @@ var ContactComponent = class _ContactComponent {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(ContactComponent, { className: "ContactComponent", filePath: "app/contacts/contacts.ts", lineNumber: 12 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(ContactComponent, { className: "ContactComponent", filePath: "src/app/contacts/contacts.ts", lineNumber: 12 });
 })();
 
 // src/app/home/home.ts
@@ -40589,7 +40589,7 @@ var HomeComponent = class _HomeComponent {
       \u0275\u0275advance(5);
       \u0275\u0275property("ngForOf", ctx.products);
     }
-  }, dependencies: [CommonModule, NgForOf, RouterModule, RouterLink], styles: ["\n.hero[_ngcontent-%COMP%] {\n  height: 90vh;\n  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/d4118ecd-81c9-4bb8-a6ac-c76ad8b11ef5.jpg);\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  color: #fff;\n}\n.hero[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 60px;\n  margin-bottom: 20px;\n}\n.hero[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.hero[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  padding: 15px 40px;\n  background: #ffb400;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  font-size: 18px;\n  cursor: pointer;\n  transition: .3s;\n}\n.hero[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  background: #4f46e5;\n}\nhtml[_ngcontent-%COMP%] {\n  scroll-behavior: smooth;\n}\n.category[_ngcontent-%COMP%], \n.products[_ngcontent-%COMP%] {\n  padding: 70px 8%;\n}\n.category[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%], \n.products[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  text-align: center;\n  margin-bottom: 40px;\n  font-size: 35px;\n}\n.category-grid[_ngcontent-%COMP%], \n.product-grid[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n  gap: 30px;\n}\n.category-card[_ngcontent-%COMP%], \n.product-card[_ngcontent-%COMP%] {\n  background: #fff;\n  border-radius: 15px;\n  overflow: hidden;\n  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);\n  transition: .3s;\n  text-align: center;\n}\n.category-card[_ngcontent-%COMP%]:hover, \n.product-card[_ngcontent-%COMP%]:hover {\n  transform: translateY(-10px);\n}\n.category-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%], \n.product-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 220px;\n  object-fit: cover;\n}\n.product-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  margin: 15px 0;\n}\n.product-card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 22px;\n  font-weight: bold;\n  color: #6d5dfc;\n}\n.product-card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  margin: 20px;\n  padding: 12px 25px;\n  border: none;\n  background: #6d5dfc;\n  color: #fff;\n  border-radius: 25px;\n  cursor: pointer;\n}\n.offer[_ngcontent-%COMP%] {\n  background: #6d5dfc;\n  color: #fff;\n  text-align: center;\n  padding: 80px 20px;\n}\n.offer[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 45px;\n  margin-bottom: 20px;\n}\n.offer[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.offer[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  padding: 15px 35px;\n  border: none;\n  background: #fff;\n  color: #6d5dfc;\n  font-weight: bold;\n  border-radius: 30px;\n  cursor: pointer;\n}\n@media (max-width: 768px) {\n  .hero[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n    font-size: 38px;\n  }\n  .hero[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n    font-size: 18px;\n  }\n}\n.product-card[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n/*# sourceMappingURL=home.css.map */"] });
+  }, dependencies: [CommonModule, NgForOf, RouterModule, RouterLink], styles: ["\n.hero[_ngcontent-%COMP%] {\n  height: 90vh;\n  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/Angular-anu3d/d4118ecd-81c9-4bb8-a6ac-c76ad8b11ef5.jpg);\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  color: #fff;\n}\n.hero[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-size: 60px;\n  margin-bottom: 20px;\n}\n.hero[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.hero[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  padding: 15px 40px;\n  background: #ffb400;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  font-size: 18px;\n  cursor: pointer;\n  transition: .3s;\n}\n.hero[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  background: #4f46e5;\n}\nhtml[_ngcontent-%COMP%] {\n  scroll-behavior: smooth;\n}\n.category[_ngcontent-%COMP%], \n.products[_ngcontent-%COMP%] {\n  padding: 70px 8%;\n}\n.category[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%], \n.products[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  text-align: center;\n  margin-bottom: 40px;\n  font-size: 35px;\n}\n.category-grid[_ngcontent-%COMP%], \n.product-grid[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n  gap: 30px;\n}\n.category-card[_ngcontent-%COMP%], \n.product-card[_ngcontent-%COMP%] {\n  background: #fff;\n  border-radius: 15px;\n  overflow: hidden;\n  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);\n  transition: .3s;\n  text-align: center;\n}\n.category-card[_ngcontent-%COMP%]:hover, \n.product-card[_ngcontent-%COMP%]:hover {\n  transform: translateY(-10px);\n}\n.category-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%], \n.product-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 220px;\n  object-fit: cover;\n}\n.product-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  margin: 15px 0;\n}\n.product-card[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 22px;\n  font-weight: bold;\n  color: #6d5dfc;\n}\n.product-card[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  margin: 20px;\n  padding: 12px 25px;\n  border: none;\n  background: #6d5dfc;\n  color: #fff;\n  border-radius: 25px;\n  cursor: pointer;\n}\n.offer[_ngcontent-%COMP%] {\n  background: #6d5dfc;\n  color: #fff;\n  text-align: center;\n  padding: 80px 20px;\n}\n.offer[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  font-size: 45px;\n  margin-bottom: 20px;\n}\n.offer[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.offer[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  padding: 15px 35px;\n  border: none;\n  background: #fff;\n  color: #6d5dfc;\n  font-weight: bold;\n  border-radius: 30px;\n  cursor: pointer;\n}\n@media (max-width: 768px) {\n  .hero[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n    font-size: 38px;\n  }\n  .hero[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n    font-size: 18px;\n  }\n}\n.product-card[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n/*# sourceMappingURL=home.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(HomeComponent, [{
@@ -40650,11 +40650,11 @@ var HomeComponent = class _HomeComponent {
 
 </section>
 
-`, styles: ["/* src/app/home/home.css */\n.hero {\n  height: 90vh;\n  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/d4118ecd-81c9-4bb8-a6ac-c76ad8b11ef5.jpg);\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  color: #fff;\n}\n.hero h1 {\n  font-size: 60px;\n  margin-bottom: 20px;\n}\n.hero p {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.hero button {\n  padding: 15px 40px;\n  background: #ffb400;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  font-size: 18px;\n  cursor: pointer;\n  transition: .3s;\n}\n.hero button:hover {\n  background: #4f46e5;\n}\nhtml {\n  scroll-behavior: smooth;\n}\n.category,\n.products {\n  padding: 70px 8%;\n}\n.category h2,\n.products h2 {\n  text-align: center;\n  margin-bottom: 40px;\n  font-size: 35px;\n}\n.category-grid,\n.product-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n  gap: 30px;\n}\n.category-card,\n.product-card {\n  background: #fff;\n  border-radius: 15px;\n  overflow: hidden;\n  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);\n  transition: .3s;\n  text-align: center;\n}\n.category-card:hover,\n.product-card:hover {\n  transform: translateY(-10px);\n}\n.category-card img,\n.product-card img {\n  width: 100%;\n  height: 220px;\n  object-fit: cover;\n}\n.product-card h3 {\n  margin: 15px 0;\n}\n.product-card p {\n  font-size: 22px;\n  font-weight: bold;\n  color: #6d5dfc;\n}\n.product-card button {\n  margin: 20px;\n  padding: 12px 25px;\n  border: none;\n  background: #6d5dfc;\n  color: #fff;\n  border-radius: 25px;\n  cursor: pointer;\n}\n.offer {\n  background: #6d5dfc;\n  color: #fff;\n  text-align: center;\n  padding: 80px 20px;\n}\n.offer h2 {\n  font-size: 45px;\n  margin-bottom: 20px;\n}\n.offer p {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.offer button {\n  padding: 15px 35px;\n  border: none;\n  background: #fff;\n  color: #6d5dfc;\n  font-weight: bold;\n  border-radius: 30px;\n  cursor: pointer;\n}\n@media (max-width: 768px) {\n  .hero h1 {\n    font-size: 38px;\n  }\n  .hero p {\n    font-size: 18px;\n  }\n}\n.product-card {\n  cursor: pointer;\n}\n/*# sourceMappingURL=home.css.map */\n"] }]
+`, styles: ["/* src/app/home/home.css */\n.hero {\n  height: 90vh;\n  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/Angular-anu3d/d4118ecd-81c9-4bb8-a6ac-c76ad8b11ef5.jpg);\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  color: #fff;\n}\n.hero h1 {\n  font-size: 60px;\n  margin-bottom: 20px;\n}\n.hero p {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.hero button {\n  padding: 15px 40px;\n  background: #ffb400;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  font-size: 18px;\n  cursor: pointer;\n  transition: .3s;\n}\n.hero button:hover {\n  background: #4f46e5;\n}\nhtml {\n  scroll-behavior: smooth;\n}\n.category,\n.products {\n  padding: 70px 8%;\n}\n.category h2,\n.products h2 {\n  text-align: center;\n  margin-bottom: 40px;\n  font-size: 35px;\n}\n.category-grid,\n.product-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n  gap: 30px;\n}\n.category-card,\n.product-card {\n  background: #fff;\n  border-radius: 15px;\n  overflow: hidden;\n  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);\n  transition: .3s;\n  text-align: center;\n}\n.category-card:hover,\n.product-card:hover {\n  transform: translateY(-10px);\n}\n.category-card img,\n.product-card img {\n  width: 100%;\n  height: 220px;\n  object-fit: cover;\n}\n.product-card h3 {\n  margin: 15px 0;\n}\n.product-card p {\n  font-size: 22px;\n  font-weight: bold;\n  color: #6d5dfc;\n}\n.product-card button {\n  margin: 20px;\n  padding: 12px 25px;\n  border: none;\n  background: #6d5dfc;\n  color: #fff;\n  border-radius: 25px;\n  cursor: pointer;\n}\n.offer {\n  background: #6d5dfc;\n  color: #fff;\n  text-align: center;\n  padding: 80px 20px;\n}\n.offer h2 {\n  font-size: 45px;\n  margin-bottom: 20px;\n}\n.offer p {\n  font-size: 22px;\n  margin-bottom: 30px;\n}\n.offer button {\n  padding: 15px 35px;\n  border: none;\n  background: #fff;\n  color: #6d5dfc;\n  font-weight: bold;\n  border-radius: 30px;\n  cursor: pointer;\n}\n@media (max-width: 768px) {\n  .hero h1 {\n    font-size: 38px;\n  }\n  .hero p {\n    font-size: 18px;\n  }\n}\n.product-card {\n  cursor: pointer;\n}\n/*# sourceMappingURL=home.css.map */\n"] }]
   }], () => [{ type: ViewportScroller }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "app/home/home.ts", lineNumber: 12 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HomeComponent, { className: "HomeComponent", filePath: "src/app/home/home.ts", lineNumber: 12 });
 })();
 
 // src/main-component/main-component.ts
@@ -40689,7 +40689,7 @@ var MainComponent = class _MainComponent {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(MainComponent, { className: "MainComponent", filePath: "main-component/main-component.ts", lineNumber: 11 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(MainComponent, { className: "MainComponent", filePath: "src/main-component/main-component.ts", lineNumber: 11 });
 })();
 
 // src/frames/frames.ts
@@ -40734,7 +40734,7 @@ var FramesComponent = class _FramesComponent {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(FramesComponent, { className: "FramesComponent", filePath: "frames/frames.ts", lineNumber: 9 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(FramesComponent, { className: "FramesComponent", filePath: "src/frames/frames.ts", lineNumber: 9 });
 })();
 
 // src/keychains/keychains.ts
@@ -40757,7 +40757,7 @@ var Keychains = class _Keychains {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Keychains, { className: "Keychains", filePath: "keychains/keychains.ts", lineNumber: 9 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Keychains, { className: "Keychains", filePath: "src/keychains/keychains.ts", lineNumber: 9 });
 })();
 
 // src/toys/toys.ts
@@ -40780,7 +40780,7 @@ var Toys = class _Toys {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Toys, { className: "Toys", filePath: "toys/toys.ts", lineNumber: 9 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Toys, { className: "Toys", filePath: "src/toys/toys.ts", lineNumber: 9 });
 })();
 
 // src/det-product/det-product.ts
@@ -41313,7 +41313,7 @@ var DetProductComponent = class _DetProductComponent {
   }], () => [{ type: ActivatedRoute }, { type: Router }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(DetProductComponent, { className: "DetProductComponent", filePath: "det-product/det-product.ts", lineNumber: 24 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(DetProductComponent, { className: "DetProductComponent", filePath: "src/det-product/det-product.ts", lineNumber: 24 });
 })();
 
 // src/buynow/buynow.ts
@@ -41665,7 +41665,7 @@ Please confirm my order. Thank you!`;
   }], () => [{ type: Router }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(BuyNowComponent, { className: "BuyNowComponent", filePath: "buynow/buynow.ts", lineNumber: 19 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(BuyNowComponent, { className: "BuyNowComponent", filePath: "src/buynow/buynow.ts", lineNumber: 19 });
 })();
 
 // src/app/cart/cart.ts
@@ -41844,7 +41844,7 @@ var Cartcomponent = class _Cartcomponent {
   }], () => [{ type: Router }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Cartcomponent, { className: "Cartcomponent", filePath: "app/cart/cart.ts", lineNumber: 15 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Cartcomponent, { className: "Cartcomponent", filePath: "src/app/cart/cart.ts", lineNumber: 15 });
 })();
 
 // src/product-details/product-details.ts
@@ -42115,7 +42115,7 @@ var ProductsComponent = class _ProductsComponent {
   }], () => [{ type: Router }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(ProductsComponent, { className: "ProductsComponent", filePath: "product-details/product-details.ts", lineNumber: 12 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(ProductsComponent, { className: "ProductsComponent", filePath: "src/product-details/product-details.ts", lineNumber: 12 });
 })();
 
 // src/wishlist/wishlist.ts
@@ -42667,7 +42667,7 @@ var WishlistComponent = class _WishlistComponent {
   }], () => [{ type: Router }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(WishlistComponent, { className: "WishlistComponent", filePath: "wishlist/wishlist.ts", lineNumber: 23 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(WishlistComponent, { className: "WishlistComponent", filePath: "src/wishlist/wishlist.ts", lineNumber: 23 });
 })();
 
 // src/profile/profile.ts
@@ -42858,7 +42858,7 @@ var Profile = class _Profile {
   }] }], null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Profile, { className: "Profile", filePath: "profile/profile.ts", lineNumber: 24 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Profile, { className: "Profile", filePath: "src/profile/profile.ts", lineNumber: 24 });
 })();
 
 // src/app/app.routes.ts
@@ -43011,7 +43011,7 @@ var App = class _App {
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(App, { className: "App", filePath: "app/app.ts", lineNumber: 18 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(App, { className: "App", filePath: "src/app/app.ts", lineNumber: 18 });
 })();
 
 // src/main.ts
