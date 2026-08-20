@@ -17,6 +17,8 @@ import { DetProductComponent } from '../det-product/det-product';
 import { BuyNowComponent } from '../buynow/buynow';
 import { Cartcomponent } from './cart/cart';
 import { ProductsComponent } from '../product-details/product-details';
+import { WishlistComponent } from '../wishlist/wishlist';
+import { Profile } from '../profile/profile';
 
 export const routes: Routes = [
 
@@ -30,7 +32,6 @@ export const routes: Routes = [
     pathMatch: 'full'
   },
 
-
   // =========================
   // MAIN
   // =========================
@@ -39,7 +40,6 @@ export const routes: Routes = [
     path: 'main-component',
     component: MainComponent
   },
-
 
   // =========================
   // NAVBAR / FOOTER
@@ -55,7 +55,6 @@ export const routes: Routes = [
     component: FooterComponent
   },
 
-
   // =========================
   // AUTH
   // =========================
@@ -70,7 +69,6 @@ export const routes: Routes = [
     component: RegisterComponent
   },
 
-
   // =========================
   // PAGES
   // =========================
@@ -78,6 +76,10 @@ export const routes: Routes = [
   {
     path: 'About',
     component: AboutComponent
+  },
+  {
+    path: 'wishlist',
+    component: WishlistComponent
   },
 
   {
@@ -89,7 +91,10 @@ export const routes: Routes = [
     path: 'home',
     component: HomeComponent
   },
-
+  {
+    path: 'profile',
+    component: Profile
+  },
 
   // =========================
   // PRODUCTS
@@ -100,23 +105,26 @@ export const routes: Routes = [
     component: ProductsComponent
   },
 
-
-  // Product detail page
-  // Example:
-  // /product-details/1
-  // /product-details/2
-  // ...
-  // /product-details/24
+  // =========================
+  // PRODUCT DETAILS
+  // =========================
 
   {
     path: 'product-details/:id',
-    component: DetProductComponent
+    component: DetProductComponent,
+    data: {
+      renderMode: 'client'
+    }
   },
+
+  // =========================
+  // BUY NOW
+  // =========================
+
   {
     path: 'buynow',
     component: BuyNowComponent
   },
-
 
   // =========================
   // CART
@@ -126,7 +134,6 @@ export const routes: Routes = [
     path: 'cart',
     component: Cartcomponent
   },
-
 
   // =========================
   // CATEGORY ROUTES
@@ -146,7 +153,6 @@ export const routes: Routes = [
     path: 'toys',
     component: Toys
   },
-
 
   // =========================
   // INVALID ROUTE

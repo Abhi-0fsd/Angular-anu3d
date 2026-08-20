@@ -28,19 +28,18 @@
     padding: 4px 5px;
 
     overflow: hidden;
-
     white-space: nowrap;
 }
 
 
 /* =====================================================
-   LOGO - EXTREME LEFT
+   LOGO
 ===================================================== */
 
 .logo {
     position: absolute;
 
-    left: 5px;
+    left: 8px;
     top: 50%;
 
     transform: translateY(-50%);
@@ -48,29 +47,51 @@
     display: flex;
     align-items: center;
 
-    gap: 8px;
+    /* GAP BETWEEN LOGO AND TEXT */
+    gap: 10px;
 
     z-index: 3;
 }
+
+
+/* =====================================================
+   LOGO IMAGE
+===================================================== */
 
 .logo img {
     width: 60px;
     height: 60px;
 
     object-fit: contain;
-
     display: block;
+
+    flex-shrink: 0;
 }
 
-.logo a {
+
+/* =====================================================
+   BRAND NAME - ANU 3D PRINTING
+===================================================== */
+
+.logo a,
+.brand-name {
     color: #ffb400;
 
     text-decoration: none;
 
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 24px;
+
+    /* BOLD */
+    font-weight: 700;
 
     white-space: nowrap;
+
+    display: block;
+
+    /* FULL TEXT */
+    max-width: none;
+    overflow: visible;
+    text-overflow: clip;
 }
 
 
@@ -87,7 +108,6 @@
     transform: translate(-50%, -50%);
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
@@ -112,6 +132,8 @@
 
     font-size: 15px;
 
+    font-weight: 500;
+
     white-space: nowrap;
 
     transition: 0.3s;
@@ -123,7 +145,7 @@
 
 
 /* =====================================================
-   LOGIN + REGISTER - EXTREME RIGHT
+   LOGIN + REGISTER
 ===================================================== */
 
 .nav-buttons {
@@ -135,7 +157,6 @@
     transform: translateY(-50%);
 
     display: flex;
-
     align-items: center;
 
     gap: 10px;
@@ -144,7 +165,9 @@
 }
 
 
-/* LOGIN */
+/* =====================================================
+   LOGIN BUTTON
+===================================================== */
 
 .login-btn {
     display: inline-flex;
@@ -155,7 +178,6 @@
     padding: 8px 18px;
 
     border: 2px solid #ffb400;
-
     border-radius: 8px;
 
     background: transparent;
@@ -165,10 +187,11 @@
     text-decoration: none;
 
     font-size: 15px;
-
     font-weight: 600;
 
     white-space: nowrap;
+
+    transition: 0.3s;
 }
 
 .login-btn:hover {
@@ -178,7 +201,9 @@
 }
 
 
-/* REGISTER */
+/* =====================================================
+   REGISTER BUTTON
+===================================================== */
 
 .register-btn {
     display: inline-flex;
@@ -189,7 +214,6 @@
     padding: 8px 18px;
 
     border: 2px solid #ffb400;
-
     border-radius: 8px;
 
     background: #ffb400;
@@ -199,10 +223,11 @@
     text-decoration: none;
 
     font-size: 15px;
-
     font-weight: 600;
 
     white-space: nowrap;
+
+    transition: 0.3s;
 }
 
 .register-btn:hover {
@@ -222,13 +247,20 @@
         height: 78px;
     }
 
+    .logo {
+        left: 8px;
+        gap: 10px;
+    }
+
     .logo img {
         width: 65px;
         height: 65px;
     }
 
-    .logo a {
-        font-size: 28px;
+    .logo a,
+    .brand-name {
+        font-size: 24px;
+        font-weight: 700;
     }
 
     .nav-links {
@@ -244,6 +276,11 @@
         gap: 12px;
     }
 
+    .login-btn,
+    .register-btn {
+        padding: 8px 18px;
+        font-size: 15px;
+    }
 }
 
 
@@ -257,13 +294,20 @@
         height: 70px;
     }
 
-    .logo img {
-        width: 55px;
-        height: 55px;
+    .logo {
+        left: 6px;
+        gap: 8px;
     }
 
-    .logo a {
-        font-size: 22px;
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo a,
+    .brand-name {
+        font-size: 18px;
+        font-weight: 700;
     }
 
     .nav-links {
@@ -284,7 +328,6 @@
         padding: 7px 10px;
         font-size: 12px;
     }
-
 }
 
 
@@ -301,30 +344,40 @@
     }
 
 
-    /* LEFT LOGO */
+    /* -----------------------------
+       LOGO
+    ----------------------------- */
 
     .logo {
-        left: 4px;
+        left: 5px;
 
-        gap: 3px;
+        /* GAP BETWEEN IMAGE AND TEXT */
+        gap: 7px;
     }
 
     .logo img {
-        width: 40px;
-        height: 40px;
+        width: 38px;
+        height: 38px;
     }
 
-    .logo a {
+    .logo a,
+    .brand-name {
         font-size: 14px;
 
-        max-width: 100px;
+        font-weight: 700;
 
-        overflow: hidden;
-        text-overflow: ellipsis;
+        /* DO NOT CUT TEXT */
+        max-width: none;
+        overflow: visible;
+        text-overflow: clip;
+
+        white-space: nowrap;
     }
 
 
-    /* CENTER MENU */
+    /* -----------------------------
+       CENTER MENU
+    ----------------------------- */
 
     .nav-links {
         left: 52%;
@@ -341,7 +394,9 @@
     }
 
 
-    /* RIGHT BUTTONS */
+    /* -----------------------------
+       LOGIN + REGISTER
+    ----------------------------- */
 
     .nav-buttons {
         right: 4px;
@@ -359,7 +414,6 @@
 
         border-radius: 4px;
     }
-
 }
 
 
@@ -373,18 +427,45 @@
         height: 54px;
     }
 
-    .logo img {
-        width: 34px;
-        height: 34px;
+
+    /* -----------------------------
+       LOGO
+    ----------------------------- */
+
+    .logo {
+        left: 4px;
+
+        /* GAP */
+        gap: 6px;
     }
 
-    .logo a {
-        font-size: 11px;
-        max-width: 70px;
+    .logo img {
+        width: 32px;
+        height: 32px;
     }
+
+    .logo a,
+    .brand-name {
+        font-size: 12px;
+
+        font-weight: 700;
+
+        /* FULL TEXT */
+        max-width: none;
+        overflow: visible;
+        text-overflow: clip;
+
+        white-space: nowrap;
+    }
+
+
+    /* -----------------------------
+       CENTER MENU
+    ----------------------------- */
 
     .nav-links {
         left: 52%;
+
         gap: 3px;
     }
 
@@ -392,14 +473,25 @@
         font-size: 7px;
     }
 
+
+    /* -----------------------------
+       LOGIN + REGISTER
+    ----------------------------- */
+
     .nav-buttons {
         right: 3px;
+
         gap: 2px;
     }
 
     .login-btn,
     .register-btn {
         padding: 4px 5px;
+
         font-size: 7px;
+
+        border-width: 1px;
+
+        border-radius: 4px;
     }
 }
